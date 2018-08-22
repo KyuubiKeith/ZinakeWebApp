@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+    min-height: 100vh;
+    background-color: #000;
+    -webkit-perspective: 1200px;
+    perspective: 1200px
+}
+
+.bg-video {
+    position: fixed;
+    z-index: -100;
+    top: 50%;
+    left: 50%;
+    display: block;
+    overflow: hidden;
+    width: auto;
+    min-width: 100%;
+    height: auto;
+    min-height: 100%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%)
+}
+
+.mask {
+    height: 100%;
+    top: 0;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    background-color: rgba(17, 20, 24, .8)
+}
