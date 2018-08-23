@@ -13,8 +13,8 @@ $(document).ready(function(){
 function playAnimation(){
     $(".second", section).addClass("show");
     $(".second-typed-string", section).typed({
-        strings: ["Experience"],
-        typeSpeed: 200,
+        strings: ["The Zinake"],
+        typeSpeed: 100,
         startDelay: 1000,
         preStringTyped: function() {
             $(".second-typed-string", section).addClass("highlighted")
@@ -31,12 +31,12 @@ function playBottomAnimation(){
         next();
     }).delay(200).queue(function(next){
           $('.first-typed-string').typeIt({
-            speed: 200,
+            speed: 100,
             lifeLike: false,
             autoStart: true,
               startDelete: true
           })
-          .tiType('sketching')
+          .tiType('Register to')
           .tiPause(stringsPause);
         next();
     }).delay(200).queue(function(next){
@@ -45,11 +45,11 @@ function playBottomAnimation(){
     }).delay(stringsTiming).queue(function(next){
         $(".third", section).addClass("show");
           $('.third-typed-string').typeIt({
-            speed: 600,
+            speed: 100,
             lifeLike: false,
             autoStart: false
           })
-          .tiType(':)')
+          .tiType('As a Client.')
           .tiPause(stringsPause)
         next();
     }).delay(stringsTiming).queue(function(next){
@@ -58,77 +58,49 @@ function playBottomAnimation(){
             lifeLike: false,
             autoStart: false
           })
-          .tiType('coding')
+          .tiType('Login to')
           .tiPause(stringsPause)
         next();
     }).delay(stringsTiming).queue(function(next){
           $('.third-typed-string').typeIt({
-            speed: 600,
+            speed: 100,
             lifeLike: false,
             autoStart: false,
               html: true
           })
-          .tiType('<33')
+          .tiType('As a Partner.')
           .tiPause(stringsPause)
         next();
     }).delay(stringsTiming).queue(function(next){
           $('.first-typed-string').typeIt({
-            speed: 200,
+            speed: 100,
             lifeLike: false,
             autoStart: false
           })
-          .tiType('envisioning')
+          .tiType('Explore the Team behind')
+          .tiPause(stringsPause)
+          .tiDelete()
+          .tiType('Explore')
           .tiPause(stringsPause)
         next();
     }).delay(stringsTiming).queue(function(next){
           $('.third-typed-string').typeIt({
-            speed: 900,
-            lifeLike: false,
-            autoStart: false,
-              html: true
-          })
-          .tiType(':D')
-          .tiPause(stringsPause)
-        next();
-    }).delay(stringsTiming).queue(function(next){
-          $('.first-typed-string').typeIt({
-            speed: 200,
-            lifeLike: false,
-            autoStart: false
-          })
-          .tiType('prototyping')
-          .tiPause(stringsPause)
-        next();
-    }).delay(stringsTiming).queue(function(next){
-          $('.third-typed-string').typeIt({
-            speed: 600,
-            lifeLike: false,
-            autoStart: false,
-              html: true
-          })
-          .tiType('&lt;/&gt;')
-          .tiPause(stringsPause)
-        next();
-    }).delay(stringsTiming).queue(function(next){
-          $('.first-typed-string').typeIt({
-            speed: 200,
-            lifeLike: false,
-            autoStart: false
-          })
-          .tiType('drawing')
-        next();
-    }).delay(stringsTiming).queue(function(next){
-          $('.third-typed-string').typeIt({
-            speed: 600,
+            speed: 70,
             lifeLike: false,
             autoStart: false,
             html: true,
             callback: playBottomAnimation
             })
-            .tiType(':p')
+            .tiType('Sign Up')
             .tiPause(stringsPause)
             .tiDelete()
-            .tiType(';)')
+            .tiType('Sign In')
+            .tiPause(stringsPause)
+            .tiDelete()
+            .tiType('Request :)')
+            .tiPause(stringsPause)
+            .tiDelete()
+            .tiType('Bid ;)')
          next(); 
     })
 }

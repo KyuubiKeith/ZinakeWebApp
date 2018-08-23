@@ -27,7 +27,7 @@
     width: 100%;
     position: absolute;
     left: 0;
-    background-color: rgba(17, 20, 24, .65)
+    background-color: rgba(17, 20, 24, .8)
 }
 
 html {
@@ -9821,7 +9821,7 @@ a:hover {
   transition: opacity 400ms ease-in;
 }
 .arrow-section-container > a {
-  background: #0063e2;
+  background: rgba(0, 0, 0, 0.6);
   display: inline-block;
   width: 38px;
   height: 38px;
@@ -9839,7 +9839,7 @@ a:hover {
   top: 0;
   left: 0;
   z-index: -1;
-  box-shadow: 0 0 0 1px rgba(0, 95, 230, 0.1);
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.6);
   opacity: 0;
   transform: scale(0.9);
   animation: sonarEffect 1.3s ease-out 2s infinite;
@@ -9851,7 +9851,7 @@ a:hover {
   font-size: 18px;
 }
 .arrow-section-container > a:hover {
-  background: #0151b7;
+  background: rgba(0, 0, 0, 0.6);
 }
 @media screen and (max-width: 480px) {
   .arrow-section-container {
@@ -10658,11 +10658,11 @@ a {
   background-size: 150px 70px;
 }
 .navbar-default.navbar-fixed-top .logo-container .static-logo {
-  background: url('../../The_Elements/Images/SVGs/TheLogo.svg');
+  background: url('../../The_Elements/Images/SVGs/TheLogoLight.svg');
   background-size: 150px 70px;
 }
 .navbar-default.navbar-fixed-top .logo-container .static-logo.black {
-  background: url('../../The_Elements/Images/SVGs/TheLogo.svg');
+  background: url('../../The_Elements/Images/SVGs/TheLogoDark.svg');
   background-size: 150px 70px;
 }
 .navbar-default.navbar-fixed-top .logo-container .logo-gif {
@@ -10688,7 +10688,7 @@ a {
   }
 }
 .vs-active-section-1 .navbar-default.navbar-fixed-top .logo-container .static-logo {
-  background: url('../../The_Elements/Images/SVGs/TheLogo.svg');
+  background: url('../../The_Elements/Images/SVGs/TheLogoDark.svg');
 }
 .vs-active-section-1 .navbar-default.navbar-fixed-top .logo-container .static-logo,
 .vs-active-section-1 .navbar-default.navbar-fixed-top .logo-container .logo-gif {
@@ -10715,6 +10715,7 @@ a {
 }
 .workinprogress h2 {
   background-color: transparent;
+  color: rgba(255, 255, 255, 0.6);
   position: relative;
   bottom: -30px;
   opacity: 0;
@@ -10802,7 +10803,7 @@ a {
   }
 }
 .workinprogress .text-primary {
-  color: #2c2c2c;
+  color: #ffffffde;
 }
 @media screen and (max-width: 1024px) {
   .workinprogress .col-center {
