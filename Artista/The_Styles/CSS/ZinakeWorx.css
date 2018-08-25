@@ -31,7 +31,7 @@
 }
 
 html {
-  font-family: sans-serif;
+  font-family: 'Overlock';
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
 }
@@ -94,7 +94,7 @@ h1 {
   margin: 0.67em 0;
 }
 mark {
-  background: #ff0;
+  background: #16a816;
   color: #000;
 }
 small {
@@ -133,7 +133,7 @@ code,
 kbd,
 pre,
 samp {
-  font-family: monospace, monospace;
+  font-family: 'Overlock';
   font-size: 1em;
 }
 button,
@@ -283,808 +283,27 @@ th {
   }
 }
 @font-face {
-  font-family: 'Glyphicons Halflings';
-  src: url('../../The_Elements/Fonts/glyphicons-halflings-regular.eot');
-  src: url('../../The_Elements/Fonts/glyphicons-halflings-regulard41d.eot?#iefix') format('embedded-opentype'), url('../../The_Elements/Fonts/glyphicons-halflings-regular.woff2') format('woff2'), url('../../The_Elements/Fonts/glyphicons-halflings-regular.woff') format('woff'), url('../../The_Elements/Fonts/glyphicons-halflings-regular.ttf') format('truetype'), url('../../The_Elements/Fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg');
-}
-.glyphicon {
-  position: relative;
-  top: 1px;
-  display: inline-block;
-  font-family: 'Glyphicons Halflings';
+  font-family: 'Overlock';
+  font-weight: 400;
   font-style: normal;
-  font-weight: normal;
-  line-height: 1;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-.glyphicon-asterisk:before {
-  content: "\002a";
-}
-.glyphicon-plus:before {
-  content: "\002b";
-}
-.glyphicon-euro:before,
-.glyphicon-eur:before {
-  content: "\20ac";
-}
-.glyphicon-minus:before {
-  content: "\2212";
-}
-.glyphicon-cloud:before {
-  content: "\2601";
-}
-.glyphicon-envelope:before {
-  content: "\2709";
-}
-.glyphicon-pencil:before {
-  content: "\270f";
-}
-.glyphicon-glass:before {
-  content: "\e001";
-}
-.glyphicon-music:before {
-  content: "\e002";
-}
-.glyphicon-search:before {
-  content: "\e003";
-}
-.glyphicon-heart:before {
-  content: "\e005";
-}
-.glyphicon-star:before {
-  content: "\e006";
-}
-.glyphicon-star-empty:before {
-  content: "\e007";
-}
-.glyphicon-user:before {
-  content: "\e008";
-}
-.glyphicon-film:before {
-  content: "\e009";
-}
-.glyphicon-th-large:before {
-  content: "\e010";
-}
-.glyphicon-th:before {
-  content: "\e011";
-}
-.glyphicon-th-list:before {
-  content: "\e012";
-}
-.glyphicon-ok:before {
-  content: "\e013";
-}
-.glyphicon-remove:before {
-  content: "\e014";
-}
-.glyphicon-zoom-in:before {
-  content: "\e015";
-}
-.glyphicon-zoom-out:before {
-  content: "\e016";
-}
-.glyphicon-off:before {
-  content: "\e017";
-}
-.glyphicon-signal:before {
-  content: "\e018";
-}
-.glyphicon-cog:before {
-  content: "\e019";
-}
-.glyphicon-trash:before {
-  content: "\e020";
-}
-.glyphicon-home:before {
-  content: "\e021";
-}
-.glyphicon-file:before {
-  content: "\e022";
-}
-.glyphicon-time:before {
-  content: "\e023";
-}
-.glyphicon-road:before {
-  content: "\e024";
-}
-.glyphicon-download-alt:before {
-  content: "\e025";
-}
-.glyphicon-download:before {
-  content: "\e026";
-}
-.glyphicon-upload:before {
-  content: "\e027";
-}
-.glyphicon-inbox:before {
-  content: "\e028";
-}
-.glyphicon-play-circle:before {
-  content: "\e029";
-}
-.glyphicon-repeat:before {
-  content: "\e030";
-}
-.glyphicon-refresh:before {
-  content: "\e031";
-}
-.glyphicon-list-alt:before {
-  content: "\e032";
-}
-.glyphicon-lock:before {
-  content: "\e033";
-}
-.glyphicon-flag:before {
-  content: "\e034";
-}
-.glyphicon-headphones:before {
-  content: "\e035";
-}
-.glyphicon-volume-off:before {
-  content: "\e036";
-}
-.glyphicon-volume-down:before {
-  content: "\e037";
-}
-.glyphicon-volume-up:before {
-  content: "\e038";
-}
-.glyphicon-qrcode:before {
-  content: "\e039";
-}
-.glyphicon-barcode:before {
-  content: "\e040";
-}
-.glyphicon-tag:before {
-  content: "\e041";
-}
-.glyphicon-tags:before {
-  content: "\e042";
-}
-.glyphicon-book:before {
-  content: "\e043";
-}
-.glyphicon-bookmark:before {
-  content: "\e044";
-}
-.glyphicon-print:before {
-  content: "\e045";
-}
-.glyphicon-camera:before {
-  content: "\e046";
-}
-.glyphicon-font:before {
-  content: "\e047";
-}
-.glyphicon-bold:before {
-  content: "\e048";
-}
-.glyphicon-italic:before {
-  content: "\e049";
-}
-.glyphicon-text-height:before {
-  content: "\e050";
-}
-.glyphicon-text-width:before {
-  content: "\e051";
-}
-.glyphicon-align-left:before {
-  content: "\e052";
-}
-.glyphicon-align-center:before {
-  content: "\e053";
-}
-.glyphicon-align-right:before {
-  content: "\e054";
-}
-.glyphicon-align-justify:before {
-  content: "\e055";
-}
-.glyphicon-list:before {
-  content: "\e056";
-}
-.glyphicon-indent-left:before {
-  content: "\e057";
-}
-.glyphicon-indent-right:before {
-  content: "\e058";
-}
-.glyphicon-facetime-video:before {
-  content: "\e059";
-}
-.glyphicon-picture:before {
-  content: "\e060";
-}
-.glyphicon-map-marker:before {
-  content: "\e062";
-}
-.glyphicon-adjust:before {
-  content: "\e063";
-}
-.glyphicon-tint:before {
-  content: "\e064";
-}
-.glyphicon-edit:before {
-  content: "\e065";
-}
-.glyphicon-share:before {
-  content: "\e066";
-}
-.glyphicon-check:before {
-  content: "\e067";
-}
-.glyphicon-move:before {
-  content: "\e068";
-}
-.glyphicon-step-backward:before {
-  content: "\e069";
-}
-.glyphicon-fast-backward:before {
-  content: "\e070";
-}
-.glyphicon-backward:before {
-  content: "\e071";
-}
-.glyphicon-play:before {
-  content: "\e072";
-}
-.glyphicon-pause:before {
-  content: "\e073";
-}
-.glyphicon-stop:before {
-  content: "\e074";
-}
-.glyphicon-forward:before {
-  content: "\e075";
-}
-.glyphicon-fast-forward:before {
-  content: "\e076";
-}
-.glyphicon-step-forward:before {
-  content: "\e077";
-}
-.glyphicon-eject:before {
-  content: "\e078";
-}
-.glyphicon-chevron-left:before {
-  content: "\e079";
-}
-.glyphicon-chevron-right:before {
-  content: "\e080";
-}
-.glyphicon-plus-sign:before {
-  content: "\e081";
-}
-.glyphicon-minus-sign:before {
-  content: "\e082";
-}
-.glyphicon-remove-sign:before {
-  content: "\e083";
-}
-.glyphicon-ok-sign:before {
-  content: "\e084";
-}
-.glyphicon-question-sign:before {
-  content: "\e085";
-}
-.glyphicon-info-sign:before {
-  content: "\e086";
-}
-.glyphicon-screenshot:before {
-  content: "\e087";
-}
-.glyphicon-remove-circle:before {
-  content: "\e088";
-}
-.glyphicon-ok-circle:before {
-  content: "\e089";
-}
-.glyphicon-ban-circle:before {
-  content: "\e090";
-}
-.glyphicon-arrow-left:before {
-  content: "\e091";
-}
-.glyphicon-arrow-right:before {
-  content: "\e092";
-}
-.glyphicon-arrow-up:before {
-  content: "\e093";
-}
-.glyphicon-arrow-down:before {
-  content: "\e094";
-}
-.glyphicon-share-alt:before {
-  content: "\e095";
-}
-.glyphicon-resize-full:before {
-  content: "\e096";
-}
-.glyphicon-resize-small:before {
-  content: "\e097";
-}
-.glyphicon-exclamation-sign:before {
-  content: "\e101";
-}
-.glyphicon-gift:before {
-  content: "\e102";
-}
-.glyphicon-leaf:before {
-  content: "\e103";
-}
-.glyphicon-fire:before {
-  content: "\e104";
-}
-.glyphicon-eye-open:before {
-  content: "\e105";
-}
-.glyphicon-eye-close:before {
-  content: "\e106";
-}
-.glyphicon-warning-sign:before {
-  content: "\e107";
-}
-.glyphicon-plane:before {
-  content: "\e108";
-}
-.glyphicon-calendar:before {
-  content: "\e109";
-}
-.glyphicon-random:before {
-  content: "\e110";
-}
-.glyphicon-comment:before {
-  content: "\e111";
-}
-.glyphicon-magnet:before {
-  content: "\e112";
-}
-.glyphicon-chevron-up:before {
-  content: "\e113";
-}
-.glyphicon-chevron-down:before {
-  content: "\e114";
-}
-.glyphicon-retweet:before {
-  content: "\e115";
-}
-.glyphicon-shopping-cart:before {
-  content: "\e116";
-}
-.glyphicon-folder-close:before {
-  content: "\e117";
-}
-.glyphicon-folder-open:before {
-  content: "\e118";
-}
-.glyphicon-resize-vertical:before {
-  content: "\e119";
-}
-.glyphicon-resize-horizontal:before {
-  content: "\e120";
-}
-.glyphicon-hdd:before {
-  content: "\e121";
-}
-.glyphicon-bullhorn:before {
-  content: "\e122";
-}
-.glyphicon-bell:before {
-  content: "\e123";
-}
-.glyphicon-certificate:before {
-  content: "\e124";
-}
-.glyphicon-thumbs-up:before {
-  content: "\e125";
-}
-.glyphicon-thumbs-down:before {
-  content: "\e126";
-}
-.glyphicon-hand-right:before {
-  content: "\e127";
-}
-.glyphicon-hand-left:before {
-  content: "\e128";
-}
-.glyphicon-hand-up:before {
-  content: "\e129";
-}
-.glyphicon-hand-down:before {
-  content: "\e130";
-}
-.glyphicon-circle-arrow-right:before {
-  content: "\e131";
-}
-.glyphicon-circle-arrow-left:before {
-  content: "\e132";
-}
-.glyphicon-circle-arrow-up:before {
-  content: "\e133";
-}
-.glyphicon-circle-arrow-down:before {
-  content: "\e134";
-}
-.glyphicon-globe:before {
-  content: "\e135";
-}
-.glyphicon-wrench:before {
-  content: "\e136";
-}
-.glyphicon-tasks:before {
-  content: "\e137";
-}
-.glyphicon-filter:before {
-  content: "\e138";
-}
-.glyphicon-briefcase:before {
-  content: "\e139";
-}
-.glyphicon-fullscreen:before {
-  content: "\e140";
-}
-.glyphicon-dashboard:before {
-  content: "\e141";
-}
-.glyphicon-paperclip:before {
-  content: "\e142";
-}
-.glyphicon-heart-empty:before {
-  content: "\e143";
-}
-.glyphicon-link:before {
-  content: "\e144";
-}
-.glyphicon-phone:before {
-  content: "\e145";
-}
-.glyphicon-pushpin:before {
-  content: "\e146";
-}
-.glyphicon-usd:before {
-  content: "\e148";
-}
-.glyphicon-gbp:before {
-  content: "\e149";
-}
-.glyphicon-sort:before {
-  content: "\e150";
-}
-.glyphicon-sort-by-alphabet:before {
-  content: "\e151";
-}
-.glyphicon-sort-by-alphabet-alt:before {
-  content: "\e152";
-}
-.glyphicon-sort-by-order:before {
-  content: "\e153";
-}
-.glyphicon-sort-by-order-alt:before {
-  content: "\e154";
-}
-.glyphicon-sort-by-attributes:before {
-  content: "\e155";
-}
-.glyphicon-sort-by-attributes-alt:before {
-  content: "\e156";
-}
-.glyphicon-unchecked:before {
-  content: "\e157";
-}
-.glyphicon-expand:before {
-  content: "\e158";
-}
-.glyphicon-collapse-down:before {
-  content: "\e159";
-}
-.glyphicon-collapse-up:before {
-  content: "\e160";
-}
-.glyphicon-log-in:before {
-  content: "\e161";
-}
-.glyphicon-flash:before {
-  content: "\e162";
-}
-.glyphicon-log-out:before {
-  content: "\e163";
-}
-.glyphicon-new-window:before {
-  content: "\e164";
-}
-.glyphicon-record:before {
-  content: "\e165";
-}
-.glyphicon-save:before {
-  content: "\e166";
-}
-.glyphicon-open:before {
-  content: "\e167";
-}
-.glyphicon-saved:before {
-  content: "\e168";
-}
-.glyphicon-import:before {
-  content: "\e169";
-}
-.glyphicon-export:before {
-  content: "\e170";
-}
-.glyphicon-send:before {
-  content: "\e171";
-}
-.glyphicon-floppy-disk:before {
-  content: "\e172";
-}
-.glyphicon-floppy-saved:before {
-  content: "\e173";
-}
-.glyphicon-floppy-remove:before {
-  content: "\e174";
-}
-.glyphicon-floppy-save:before {
-  content: "\e175";
-}
-.glyphicon-floppy-open:before {
-  content: "\e176";
-}
-.glyphicon-credit-card:before {
-  content: "\e177";
-}
-.glyphicon-transfer:before {
-  content: "\e178";
-}
-.glyphicon-cutlery:before {
-  content: "\e179";
-}
-.glyphicon-header:before {
-  content: "\e180";
-}
-.glyphicon-compressed:before {
-  content: "\e181";
-}
-.glyphicon-earphone:before {
-  content: "\e182";
-}
-.glyphicon-phone-alt:before {
-  content: "\e183";
-}
-.glyphicon-tower:before {
-  content: "\e184";
-}
-.glyphicon-stats:before {
-  content: "\e185";
-}
-.glyphicon-sd-video:before {
-  content: "\e186";
-}
-.glyphicon-hd-video:before {
-  content: "\e187";
-}
-.glyphicon-subtitles:before {
-  content: "\e188";
-}
-.glyphicon-sound-stereo:before {
-  content: "\e189";
-}
-.glyphicon-sound-dolby:before {
-  content: "\e190";
-}
-.glyphicon-sound-5-1:before {
-  content: "\e191";
-}
-.glyphicon-sound-6-1:before {
-  content: "\e192";
-}
-.glyphicon-sound-7-1:before {
-  content: "\e193";
-}
-.glyphicon-copyright-mark:before {
-  content: "\e194";
-}
-.glyphicon-registration-mark:before {
-  content: "\e195";
-}
-.glyphicon-cloud-download:before {
-  content: "\e197";
-}
-.glyphicon-cloud-upload:before {
-  content: "\e198";
-}
-.glyphicon-tree-conifer:before {
-  content: "\e199";
-}
-.glyphicon-tree-deciduous:before {
-  content: "\e200";
-}
-.glyphicon-cd:before {
-  content: "\e201";
-}
-.glyphicon-save-file:before {
-  content: "\e202";
-}
-.glyphicon-open-file:before {
-  content: "\e203";
-}
-.glyphicon-level-up:before {
-  content: "\e204";
-}
-.glyphicon-copy:before {
-  content: "\e205";
-}
-.glyphicon-paste:before {
-  content: "\e206";
-}
-.glyphicon-alert:before {
-  content: "\e209";
-}
-.glyphicon-equalizer:before {
-  content: "\e210";
-}
-.glyphicon-king:before {
-  content: "\e211";
-}
-.glyphicon-queen:before {
-  content: "\e212";
-}
-.glyphicon-pawn:before {
-  content: "\e213";
-}
-.glyphicon-bishop:before {
-  content: "\e214";
-}
-.glyphicon-knight:before {
-  content: "\e215";
-}
-.glyphicon-baby-formula:before {
-  content: "\e216";
-}
-.glyphicon-tent:before {
-  content: "\26fa";
-}
-.glyphicon-blackboard:before {
-  content: "\e218";
-}
-.glyphicon-bed:before {
-  content: "\e219";
-}
-.glyphicon-apple:before {
-  content: "\f8ff";
-}
-.glyphicon-erase:before {
-  content: "\e221";
-}
-.glyphicon-hourglass:before {
-  content: "\231b";
-}
-.glyphicon-lamp:before {
-  content: "\e223";
-}
-.glyphicon-duplicate:before {
-  content: "\e224";
-}
-.glyphicon-piggy-bank:before {
-  content: "\e225";
-}
-.glyphicon-scissors:before {
-  content: "\e226";
-}
-.glyphicon-bitcoin:before {
-  content: "\e227";
-}
-.glyphicon-btc:before {
-  content: "\e227";
-}
-.glyphicon-xbt:before {
-  content: "\e227";
-}
-.glyphicon-yen:before {
-  content: "\00a5";
-}
-.glyphicon-jpy:before {
-  content: "\00a5";
-}
-.glyphicon-ruble:before {
-  content: "\20bd";
-}
-.glyphicon-rub:before {
-  content: "\20bd";
-}
-.glyphicon-scale:before {
-  content: "\e230";
-}
-.glyphicon-ice-lolly:before {
-  content: "\e231";
-}
-.glyphicon-ice-lolly-tasted:before {
-  content: "\e232";
-}
-.glyphicon-education:before {
-  content: "\e233";
-}
-.glyphicon-option-horizontal:before {
-  content: "\e234";
-}
-.glyphicon-option-vertical:before {
-  content: "\e235";
-}
-.glyphicon-menu-hamburger:before {
-  content: "\e236";
-}
-.glyphicon-modal-window:before {
-  content: "\e237";
-}
-.glyphicon-oil:before {
-  content: "\e238";
-}
-.glyphicon-grain:before {
-  content: "\e239";
-}
-.glyphicon-sunglasses:before {
-  content: "\e240";
-}
-.glyphicon-text-size:before {
-  content: "\e241";
-}
-.glyphicon-text-color:before {
-  content: "\e242";
-}
-.glyphicon-text-background:before {
-  content: "\e243";
-}
-.glyphicon-object-align-top:before {
-  content: "\e244";
-}
-.glyphicon-object-align-bottom:before {
-  content: "\e245";
-}
-.glyphicon-object-align-horizontal:before {
-  content: "\e246";
-}
-.glyphicon-object-align-left:before {
-  content: "\e247";
-}
-.glyphicon-object-align-vertical:before {
-  content: "\e248";
-}
-.glyphicon-object-align-right:before {
-  content: "\e249";
-}
-.glyphicon-triangle-right:before {
-  content: "\e250";
-}
-.glyphicon-triangle-left:before {
-  content: "\e251";
-}
-.glyphicon-triangle-bottom:before {
-  content: "\e252";
-}
-.glyphicon-triangle-top:before {
-  content: "\e253";
-}
-.glyphicon-console:before {
-  content: "\e254";
-}
-.glyphicon-superscript:before {
-  content: "\e255";
-}
-.glyphicon-subscript:before {
-  content: "\e256";
-}
-.glyphicon-menu-left:before {
-  content: "\e257";
-}
-.glyphicon-menu-right:before {
-  content: "\e258";
-}
-.glyphicon-menu-down:before {
-  content: "\e259";
-}
-.glyphicon-menu-up:before {
-  content: "\e260";
-}
+  src: url('../../../Shared/Fonts/Overlock/Overlock-Regular.ttf');
+  src: url('../../../Shared/Fonts/Overlock/Overlock-Regular.ttf') format('embedded-opentype'), url('../../../Shared/Fonts/Overlock/Overlock-Regular.ttf') format('woff'), url('../../../Shared/Fonts/Overlock/Overlock-Regular.ttf') format('truetype'), url('../../../Shared/Fonts/Overlock/Overlock-Regul/lobster-two/LobsterTwo-Regular.otf')
+}
+@font-face {
+  font-family: 'Englebert';
+  font-weight: 400;
+  font-style: normal;
+  src: url('../../../Shared/Fonts/Englebert/Englebert-Regular.ttf');
+  src: url('../../../Shared/Fonts/Englebert/Englebert-Regular.ttf') format('embedded-opentype'), url('../../../Shared/Fonts/Englebert/Englebert-Regular.ttf') format('woff'), url('../../../Shared/Fonts/Englebert/Englebert-Regular.ttf') format('truetype'), url('../../../Shared/Fonts/Englebert/Englebert-Regular.svg#overlock') format('svg')
+}
+@font-face {
+  font-family: 'LobsterTwo';
+  font-weight: 400;
+  font-style: normal;
+  src: url('../../../Shared/Fonts/lobster-two/LobsterTwo-Regular.otf');
+  src: url('../../../Shared/Fonts/lobster-two/LobsterTwo-Regular.otf') format('embedded-opentype'), url('../../../Shared/Fonts/lobster-two/LobsterTwo-Regular.otf') format('woff'), url('../../../Shared/Fonts/lobster-two/LobsterTwo-Regular.otf') format('truetype'), url('../../../Shared/Fonts/lobster-two/LobsterTwo-Regular.svg#overlock') format('svg')
+}
+
 * {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -1101,7 +320,7 @@ html {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 body {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Overlock';
   font-size: 14px;
   line-height: 1.42857143;
   color: #333333;
@@ -1203,7 +422,7 @@ h6,
 .h4,
 .h5,
 .h6 {
-  font-family: inherit;
+  font-family: 'Lobster-two';
   font-weight: 500;
   line-height: 1.1;
   color: inherit;
@@ -1509,7 +728,7 @@ blockquote footer,
 blockquote small,
 blockquote .small {
   display: block;
-  font-size: 80%;
+  font-size: 100%;
   line-height: 1.42857143;
   color: #777777;
 }
@@ -1551,7 +770,7 @@ code,
 kbd,
 pre,
 samp {
-  font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
+  font-family: 'Overlock';
 }
 code {
   padding: 2px 4px;
@@ -6086,7 +5305,7 @@ button.close {
   position: absolute;
   z-index: 1070;
   display: block;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Overlock';
   font-style: normal;
   font-weight: normal;
   letter-spacing: normal;
@@ -6204,7 +5423,7 @@ button.close {
   display: none;
   max-width: 276px;
   padding: 1px;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Overlock';
   font-style: normal;
   font-weight: normal;
   letter-spacing: normal;
@@ -6472,7 +5691,7 @@ button.close {
   width: 20px;
   height: 20px;
   line-height: 1;
-  font-family: serif;
+  font-family: 'Overlock';
 }
 .carousel-control .icon-prev:before {
   content: '\2039';
@@ -10302,14 +9521,7 @@ a {
 .menu-container .menu-content ul > li > a {
   font-size: 32px;
   color: #fff;
-  font-family: 'pantonlight';
-}
-@font-face {
-  font-family: 'fontello';
-  src: url('../../The_Elements/Fonts/fontelloa950.eot?16678252');
-  src: url('../../The_Elements/Fonts/fontelloa950.eot?16678252#iefix') format('embedded-opentype'), url('../../The_Elements/Fonts/fontelloa950.woff2?16678252') format('woff2'), url('../../The_Elements/Fonts/fontelloa950.woff?16678252') format('woff'), url('../../The_Elements/Fonts/fontelloa950.ttf?16678252') format('truetype'), url('../../The_Elements/Fonts/fontelloa950.svg?16678252#fontello') format('svg');
-  font-weight: normal;
-  font-style: normal;
+  font-family: 'Overlock';
 }
 /* Chrome hack: SVG is rendered more smooth in Windozze. 100% magic, uncomment if you need it. */
 /* Note, that will break hinting! In other OS-es font will be not as sharp as it could be */
@@ -10323,7 +9535,7 @@ a {
 */
 [class^="icon-"]:before,
 [class*=" icon-"]:before {
-  font-family: "fontello";
+  font-family: "'Overlock'";
   font-style: normal;
   font-weight: normal;
   speak: none;
@@ -10522,8 +9734,7 @@ a {
   margin-top: 20px;
   margin-bottom: 10px;
   font-size: 24px;
-  font-family: 'pantonlight';
-  font-size: 30px;
+  font-family: 'Overlock'
 }
 .internal-page-content .internal-footer .work-with-us-content span {
   display: block;
@@ -10546,7 +9757,7 @@ a {
 }
 .internal-page-content .internal-footer .share-content h5 {
   font-size: 16px;
-  font-family: 'linotte-semibolduploaded_file';
+  font-family: 'Overlock';
   margin-bottom: 6px;
 }
 .internal-page-content .internal-footer .share-content a {
@@ -10600,11 +9811,11 @@ a {
 }
 .nav-light .logo-container .static-logo,
 .nav-dark .logo-container .static-logo {
-  background: url('../../The_Elements/Images/SVGs/odnoklassniki.svg');
+  background: url('../../../Shared/Images/teaching.svg');
 }
 .nav-light .logo-container .static-logo.black,
 .nav-dark .logo-container .static-logo.black {
-  background: url('../../The_Elements/Images/SVGs/odnoklassniki-logo.svg');
+  background: url('../../../Shared/Images/teaching.svg');
 }
 @media screen and (max-width: 768px) {
   .nav-light,
@@ -10658,11 +9869,11 @@ a {
   background-size: 150px 70px;
 }
 .navbar-default.navbar-fixed-top .logo-container .static-logo {
-  background: url('../../The_Elements/Images/SVGs/TheLogoLight.svg');
+  background: url('../../../Shared/Images/teaching.svg');
   background-size: 150px 70px;
 }
 .navbar-default.navbar-fixed-top .logo-container .static-logo.black {
-  background: url('../../The_Elements/Images/SVGs/TheLogoDark.svg');
+  background: url('../../../Shared/Images/teaching.svg');
   background-size: 150px 70px;
 }
 .navbar-default.navbar-fixed-top .logo-container .logo-gif {
@@ -10688,7 +9899,7 @@ a {
   }
 }
 .vs-active-section-1 .navbar-default.navbar-fixed-top .logo-container .static-logo {
-  background: url('../../The_Elements/Images/SVGs/TheLogoDark.svg');
+  background: url('../../../Shared/Images/teaching.svg');
 }
 .vs-active-section-1 .navbar-default.navbar-fixed-top .logo-container .static-logo,
 .vs-active-section-1 .navbar-default.navbar-fixed-top .logo-container .logo-gif {
@@ -10840,6 +10051,7 @@ a {
   }
   .workinprogress h2 {
     font-size: 51px;
+    font-family: 'Overlock'
   }
   .workinprogress .text-primary {
     font-size: 22px;
@@ -11010,7 +10222,7 @@ a {
 }
 .popup-outer .popup-inner .jobs-subtitle {
   font-size: 18px;
-  font-family: 'linotte-regularuploaded_file';
+  font-family: 'Overlock';
 }
 .popup-outer .popup-inner .jobs-listing {
   padding-top: 20px;
@@ -11074,7 +10286,7 @@ a {
   line-height: 25px;
 }
 .popup-outer .popup-content .popup-header h3 > a {
-  font-family: 'linotte-regularuploaded_file';
+  font-family: 'Overlock';
   font-size: 18px;
   text-decoration: none;
 }
@@ -11721,7 +10933,7 @@ a {
   transition: opacity 400ms ease-in-out;
 }
 .alt-social .social-outer .social-inner .bg-container .social-centered > span {
-  font-family: 'linotte-semibolduploaded_file';
+  font-family: 'Overlock';
   font-size: 16px;
   line-height: 18px;
   display: block;
@@ -12064,7 +11276,7 @@ a {
   bottom: 0;
   left: 0;
   font-size: 14px;
-  font-family: 'linotte-regularuploaded_file';
+  font-family: 'Overlock';
   color: #737171;
 }
 .footer-bottom .right-footer {
@@ -12072,7 +11284,62 @@ a {
 }
 .footer-bottom .right-footer .right-footer-container {
   position: absolute;
+  display: inline-block;
   right: 10px;
+}
+.footer-bottom .right-footer .right-footer-container .social-list {
+  float: left;
+}
+.footer-bottom .right-footer .right-footer-container .social-list a {
+  font-size: 18px;
+  margin-left: 16px;
+  -webkit-transition: color .3s;
+  transition: color .3s;
+  text-decoration: none;
+  color: rgba(255, 255, 255, .4)
+}
+.footer-bottom .right-footer .right-footer-container .social-list a.no-dev:hover{
+  color: #fff;
+}
+.footer-bottom .right-footer .right-footer-container  .social-list li {
+  float: left
+}
+.footer-bottom .right-footer .right-footer-container .social-list li:first-child a {
+  margin-left: 0
+}
+.footer-bottom .right-footer .right-footer-container{
+  display: inline-block;
+  width: auto;
+  margin: 0 auto 14px
+}
+
+.footer-bottom .right-footer .right-footer-container:after,
+.footer-bottom .right-footer .right-footer-container:before {
+  display: block;
+  float: left;
+  clear: both;
+  content: ''
+}
+
+.footer-bottom .right-footer .right-footer-container .copyright {
+  font: 300 15px overlock;
+  float: left;
+  padding: 0;
+  color: rgba(255, 255, 255, .4)
+}
+
+.footer-bottom .right-footer .right-footer-container .separator {
+  float: left;
+  width: 2px;
+  height: 30px;
+  margin: 0 17px;
+  background-color: rgba(255, 255, 255, .1)
+}
+
+ul[class$=list] {
+  margin: 0;
+  padding: 0;
+  list-style: none
 }
 @media screen and (max-width: 1024px) {
   .footer-bottom .right-footer .right-footer-container {
@@ -12088,11 +11355,12 @@ a {
 .footer-bottom .footer-inner-alternative {
   padding: 20px 40px;
   margin: 0 auto;
+  font-size: 20px;
 }
 .footer-bottom .footer-inner-alternative p {
   padding: 0;
   margin: 0;
-  font-size: 12px;
+  font-size: 16px;
 }
 @media screen and (max-width: 768px) {
   .footer-bottom .footer-inner-alternative > div > div {
@@ -12137,6 +11405,7 @@ a {
   font-size: 16px;
   display: block;
 }
+
 @media screen and (max-width: 768px) {
   .footer-bottom .footer-inner {
     display: block;
@@ -12716,36 +11985,8 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-@font-face {
-  font-family: 'pantonlight';
-  src: url('../../The_Elements/Fonts/fontfabric_-_panton_light-webfont.eot');
-  src: url('../../The_Elements/Fonts/fontfabric_-_panton_light-webfontd41d.eot?#iefix') format('embedded-opentype'), url('../../The_Elements/Fonts/fontfabric_-_panton_light-webfont.woff2') format('woff2'), url('../../The_Elements/Fonts/fontfabric_-_panton_light-webfont.woff') format('woff'), url('../../The_Elements/Fonts/fontfabric_-_panton_light-webfont.ttf') format('truetype'), url('../../The_Elements/Fonts/fontfabric_-_panton_light-webfont.svg#pantonlight') format('svg');
-  font-weight: normal;
-  font-style: normal;
-}
-@font-face {
-  font-family: 'linotte-regularuploaded_file';
-  src: url('../../The_Elements/Fonts/linotte_regular-webfont.eot');
-  src: url('../../The_Elements/Fonts/linotte_regular-webfontd41d.eot?#iefix') format('embedded-opentype'), url('../../The_Elements/Fonts/linotte_regular-webfont.woff2') format('woff2'), url('../../The_Elements/Fonts/linotte_regular-webfont.woff') format('woff'), url('../../The_Elements/Fonts/linotte_regular-webfont.ttf') format('truetype'), url('../../The_Elements/Fonts/linotte_regular-webfont.svg#linotte-regularuploaded_file') format('svg');
-  font-weight: normal;
-  font-style: normal;
-}
-@font-face {
-  font-family: 'linotte-semibolduploaded_file';
-  src: url('../../The_Elements/Fonts/linotte_semi_bold-webfont.eot');
-  src: url('../../The_Elements/Fonts/linotte_semi_bold-webfontd41d.eot?#iefix') format('embedded-opentype'), url('../../The_Elements/Fonts/linotte_semi_bold-webfont.woff2') format('woff2'), url('../../The_Elements/Fonts/linotte_semi_bold-webfont.woff') format('woff'), url('../../The_Elements/Fonts/linotte_semi_bold-webfont.ttf') format('truetype'), url('../../The_Elements/Ffonts/linotte_semi_bold-webfont.svg#linotte-semibolduploaded_file') format('svg');
-  font-weight: normal;
-  font-style: normal;
-}
-@font-face {
-  font-family: 'linotte-bolduploaded_file';
-  src: url('../../The_Elements/Fonts/linotte_bold-webfont.eot');
-  src: url('../../The_Elements/Fonts/linotte_bold-webfontd41d.eot?#iefix') format('embedded-opentype'), url('../../The_Elements/Fonts/linotte_bold-webfont.woff2') format('woff2'), url('../../The_Elements/Fonts/linotte_bold-webfont.woff') format('woff'), url('../../The_Elements/Fonts/linotte_bold-webfont.ttf') format('truetype'), url('../../The_Elements/Fonts/linotte_bold-webfont.svg#linotte-bolduploaded_file') format('svg');
-  font-weight: normal;
-  font-style: normal;
-}
 body {
-  font-family: 'linotte-regularuploaded_file';
+  font-family: 'Overlock';
   font-size: 22px;
   color: #737171;
 }
@@ -12761,7 +12002,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'pantonlight';
+  font-family: 'LobsterTwo';
   margin-top: 0;
 }
 h1.white,
@@ -12833,7 +12074,7 @@ h2.not-uppercase {
 }
 h3,
 .h3 {
-  font-family: 'pantonlight';
+  font-family: 'Overlock';
   font-size: 30px;
 }
 h3.work-title,
@@ -12842,14 +12083,14 @@ h3.work-title,
 }
 h5 {
   font-size: 18px;
-  font-family: 'linotte-bolduploaded_file';
+  font-family: 'Overlock';
 }
 h5.jobs-titles {
   text-transform: uppercase;
 }
 h6 {
   font-size: 12px;
-  font-family: 'linotte-bolduploaded_file';
+  font-family: 'Overlock'';
 }
 h6.footer-titles {
   font-weight: bold;
@@ -12910,7 +12151,7 @@ h2 {
 .popup-subtitles {
   font-size: 15px;
   text-transform: uppercase;
-  font-family: 'linotte-regularuploaded_file';
+  font-family: 'Overlock';
 }
 body {
   overflow: hidden;
